@@ -1,14 +1,14 @@
 {
     "builds": [
       {
-        "src": "task.py",
+        "src": "main.py",
         "use": "@vercel/python"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "task.py"
+        "dest": "main.py"
       }
     ]
   }
